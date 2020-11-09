@@ -1,0 +1,203 @@
+body
+{
+    background-image: url('MITAOE.jpg');
+    background-size: cover;
+    
+}
+h3,h1{
+    color: red;
+    margin-top: 20px;
+    margin-left: 20px;
+    font-family: 'Grenze Gotisch', cursive;
+    
+    font-size: 40px;
+    animation-duration: 3s;
+  animation-name: slidein;
+  
+} 
+@keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%; 
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
+  *{
+margin: 0;
+padding: 0;
+list-style: none;
+text-decoration: none;
+}
+.header
+{
+    width: 100%;
+    height: 100px;
+    display: block;
+    background-color: gray;
+}
+.inner_header
+{
+    width: 1000px;
+    height: 100%;
+    display: block;
+    margin: 0 auto;
+    
+}
+.logo_container
+{
+    height: 100%;
+    display: table;
+    float: left;
+}
+.logo_container h1{
+    color: white;
+    height: 100%;
+    display: table-cell;
+    vertical-align: middle;
+    font-family: 'Pacifico', cursive;
+    font-size: 48px;
+    font-weight: 100;
+}
+.logo_container h1 span{
+    font-weight: 1000;
+}
+.navigation
+{
+    float: right;
+    height: 100%;
+}
+.navigation button{
+    height: 100%;
+    display: table;
+    float: left;
+    padding: 0px 20px;
+    border: transparent;
+    vertical-align: middle;
+    height: 100%;
+    color: white;
+    font-family: 'Pacifico', cursive;
+    font-size: 24px;
+    background-color: transparent;
+
+}
+.navigation button:last-child{
+    padding-right: 0cm;
+}
+
+#content
+{
+    width: 50%;
+    color: goldenrod;
+    letter-spacing: 2px;
+    margin-left: 20px;
+    margin-top: 20px;
+    font-size: 32px;
+    font-family: 'Permanent Marker', cursive; 
+}
+#home{
+    display: block;
+    
+}
+#registeration
+{
+    display: none;
+    max-width: 350px;
+    border-radius: 20px;
+    margin: auto;
+    background: rgba(0, 0, 0, 0.8);
+    box-sizing: border-box;
+    padding: 40px;
+    color: #fff;
+    margin-top: 100px;
+    font-family: 'Sriracha', cursive;
+    
+}
+#details,#delete{
+    display: none;
+}
+
+#registeration,h2
+{
+    font-size: 22px;
+    text-align: center;   
+}
+input[type=text],input[type=password]
+{
+    font-family: 'Sriracha', cursive;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 12px 5px;
+    background: rgba(0, 0, 0, 0.10);
+    outline: none;
+    border: none;
+    border-bottom: 1px dotted #fff;
+    color: #fff;
+    border-radius: 5px;
+    margin: 5px;
+    font-weight: bold;
+}
+#dname
+{
+    font-family: 'Sriracha', cursive;
+    width: auto;
+    box-sizing: border-box;
+    padding: 12px 5px;
+    background: rgba(0, 0, 0, 0.70);
+    outline: none;
+    border: none;
+    border-bottom: 1px dotted #fff;
+    color:whitesmoke;
+    border-radius: 5px;
+    margin: 5px;
+    font-weight: bold;
+    
+}
+
+
+input[type=submit]
+{
+    font-family: 'Sriracha', cursive;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px 0;
+    margin-top: 30px;
+    outline: none;
+    border: none;
+    background: #60adde;
+    opacity: 0.7;
+    border-radius: 20px;
+    font-size: 20px;
+    color: #fff;
+}
+input[type=submit]:hover
+{
+    background: #003366;
+    opacity: 0.7;
+}
+#display {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  #display td, #display th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  #display tr{background-color: #f2f2f2;}
+  
+  #display tr:hover {background-color: #ddd;}
+  
+  #display th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #4CAF50;
+    color: white;
+  }
+  
